@@ -1,0 +1,51 @@
+/* CSS Document */		
+
+/* BUTTONS */
+
+.buttons a, .buttons button{
+    display:block;
+    border:1px #1E7ACE solid;
+    font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+    font-size:12px;
+    font-weight:bold;
+    color:#565656;
+    cursor:pointer;
+    padding:1px 10px; 
+    font-size:12px; 
+    background:#D0F0FF; 
+}
+
+.buttons button img, .buttons a img{
+    padding:0;
+    border:none;
+    width:16px;
+    height:16px;
+}
+
+/* STANDARD */
+
+button:hover, .buttons a:hover{
+    background-color:#FFFF37;
+    border:0px solid #c2e1ef;
+    color:#336699;
+}
+.buttons a:active{
+    background-color:#6299c5;
+    border:1px solid #6299c5;
+    color:#fff;
+}
+
+/* POSITIVE */
+
+button.positive, .buttons a.positive{
+    color:#529214;
+}
+.buttons a.positive:hover, button.positive:hover{
+    background-color:#FFFF37;
+    border:0px solid #C6D880;
+    color:#529214;
+}
+.buttons a.positive:active{
+    background-color:#D0F0FF;
+    color:#fff;
+}
